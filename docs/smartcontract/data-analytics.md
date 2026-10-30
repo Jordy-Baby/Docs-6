@@ -21,12 +21,12 @@ The XDC Network’s data and analytics tools are critical for understanding the 
 
 # Envio
 ## Overview:
-Envio is the data layer for blockchain apps. It gives XDC developers the fastest, most flexible way to get real-time and historical on-chain data, from a single GraphQL API to raw high-speed access, with managed hosting on Envio Cloud.
+Envio builds custom blockchain APIs and analytics. XDC developers can use HyperIndex to choose the contracts and events to track, write TypeScript handlers and query the result through a GraphQL API, then run it themselves or deploy to Envio Cloud.
 
 ## Key Features:
 
-- **Any EVM Chain Support:** Envio's HyperIndex natively supports indexing any EVM chain out of the box, including XDC, using your own RPC as the data source.
-- **Flexible Data Access:** From a single GraphQL API to raw high-speed access to on-chain data.
+- **RPC Support:** HyperIndex works with XDC using your own RPC as the data source.
+- **GraphQL API:** Query your indexed XDC data through a generated GraphQL API.
 - **Managed Hosting:** Deploy and run indexers with managed hosting on Envio Cloud.
 
 ## Use Cases:
@@ -36,7 +36,7 @@ Envio is the data layer for blockchain apps. It gives XDC developers the fastest
 
 **Envio links:**
 
-- [Envio](https://envio.dev/?utm_source=xdc&utm_medium=partner-docs) - the data layer for blockchain apps
+- [Envio](https://envio.dev/?utm_source=xdc&utm_medium=partner-docs) - custom blockchain APIs and analytics
 - [Envio Docs](https://docs.envio.dev/) - HyperIndex documentation
 
 ------------
